@@ -1,7 +1,6 @@
 # Decode Function 
 Implementation of decode function in python syntax 
 
-
 def decode(message_file):
     # Read the content of the file
     with open(message_file, 'r') as file:
@@ -22,8 +21,9 @@ def decode(message_file):
     decoded_message = ' '.join(decoded_words)
 
     return decoded_message
+    
+    # Example usage:
+    message_file = 'path/to/your/file.txt'
+    result = decode(message_file)
+    print(result)
 
-# Example usage:
-message_file = 'path/to/your/file.txt'
-result = decode(message_file)
-print(result)
