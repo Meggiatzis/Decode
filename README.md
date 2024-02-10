@@ -1,7 +1,7 @@
 # Decode Function 
 Implementation of decode function in python syntax 
 
-def decode(message_file):
+    def decode(message_file):
     # Read the content of the file
     with open(message_file, 'r') as file:
         lines = file.readlines()
